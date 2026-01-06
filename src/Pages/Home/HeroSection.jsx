@@ -4,6 +4,7 @@ import { FcManager } from 'react-icons/fc';
 import { FiArrowUpRight } from 'react-icons/fi';
 import { PiStudentFill } from 'react-icons/pi';
 import { Link } from 'react-router';
+import heroImage from "../../assets/image/image 1.png"
 
 const HeroSection = () => {
     return (
@@ -55,7 +56,36 @@ const HeroSection = () => {
                     </div>
                 </div>
             </div>
-            <div className='grid-cols-1 bg-amber-300'>Rabbi Mia</div>
+            <div className='grid-cols-1 '>
+                <div className="flex items-center justify-center w-full h-full gap-1 px-10">
+
+                    <div className="w-1/3 h-full overflow-hidden rounded-2xl">
+                        <img
+                            src={heroImage}
+                            alt="Design Slice Left"
+                            className="object-cover object-left w-full h-full transition-transform duration-500 hover:scale-110"
+                        />
+                    </div>
+
+
+                    <div className="w-1/3 h-[85%] overflow-hidden rounded-2xl mt-12">
+                        <img
+                            src={heroImage}
+                            alt="Design Slice Center"
+                            className="object-cover object-center w-full h-full transition-transform duration-500 hover:scale-110"
+                        />
+                    </div>
+
+                    <div className="w-1/3 h-full overflow-hidden rounded-2xl">
+                        <img
+                            src={heroImage}
+                            alt="Design Slice Right"
+                            className="object-cover object-right w-full h-full transition-transform duration-500 hover:scale-110"
+                        />
+                    </div>
+
+                </div>
+            </div>
         </div>
     );
 };
