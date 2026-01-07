@@ -25,32 +25,32 @@ const HeroSection = () => {
                     </button>
                 </div>
 
-                <div className='flex justify-between items-center border rounded p-[10px]'>
+                <div className='flex justify-between items-center border border-[#F68319] rounded p-[10px]'>
                     <div className='flex justify-center items-center gap-4'>
                         <PiStudentFill className='h-8 w-10 text-blue-600' />
                         <div>
-                            <p className='text-2xl'>৩০০০+</p>
+                            <p className='text-2xl text-[#F68319]'>৩০০০+</p>
                             <p className='text-[16px]'>সফল শিক্ষার্থী</p>
                         </div>
                     </div>
                     <div className='flex justify-center items-center gap-4'>
                         <PiStudentFill className='h-8 w-10 text-blue-600' />
                         <div>
-                            <p className='text-2xl'>৪৫+</p>
+                            <p className='text-2xl text-[#F68319]'>৪৫+</p>
                             <p className='text-[16px]'>অভিজ্ঞ শিক্ষক</p>
                         </div>
                     </div>
                     <div className='flex justify-center items-center gap-4'>
                         <FaRegListAlt className='h-8 w-10 text-blue-600' />
                         <div>
-                            <p className='text-2xl'>১৭+</p>
+                            <p className='text-2xl text-[#F68319]'>১৭+</p>
                             <p className='text-[16px]'>বছরের অভিনজ্ঞতা</p>
                         </div>
                     </div>
                     <div className='flex justify-center items-center gap-4'>
                         <FaAward className='h-8 w-10 text-blue-600' />
                         <div>
-                            <p className='text-2xl'>৩০০০+</p>
+                            <p className='text-2xl text-[#F68319]'>১০০%</p>
                             <p className='text-[16px]'>সফল শিক্ষার্থী</p>
                         </div>
                     </div>
