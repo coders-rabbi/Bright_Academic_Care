@@ -9,12 +9,12 @@ const About = () => {
     return (
         <div className='grid grid-cols-2 px-20 pt-10'>
 
-            <div className="relative "> 
+            <div className="relative">
                 <div className="absolute top-0 left-0 z-0">
                     <img className="h-[100px] w-[100px]" src={bg1} alt="bg1" />
                 </div>
 
-                <div className="h-full absolute p-10 z-20"> 
+                <div className="h-full absolute p-10 z-20">
                     <img className="rounded-3xl h-full px-5" src={image01} alt="main" />
                 </div>
 
