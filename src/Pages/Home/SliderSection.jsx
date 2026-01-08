@@ -95,3 +95,4 @@ const SliderSection = () => {
 };
 
 export default SliderSection;
+
