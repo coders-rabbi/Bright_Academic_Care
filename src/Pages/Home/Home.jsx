@@ -11,7 +11,7 @@ import SliderSection from "./SliderSection";
 
 const Home = () => {
     return (
-        <>
+        <div>
             <div className="bg-[#F68319] h-12 flex items-center">
                 <marquee behavior="" direction="">
                     <div className="flex justify-center items-center gap-3 text-white text-[20px] ">
@@ -25,7 +25,7 @@ const Home = () => {
             <Instructor></Instructor>
             <SliderSection></SliderSection>
             <EvenSection></EvenSection>
-        </>
+        </div>
     );
 };
 
