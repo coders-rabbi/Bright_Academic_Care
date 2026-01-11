@@ -28,6 +28,7 @@ const About = () => {
                         className="hidden xl:block absolute -bottom-6 -right-6 w-24 z-0"
                     />
                 </div>
+                
                 <div className="order-1 xl:order-2">
 
                     <p className="inline-block border border-gray-200 shadow px-4 py-2 border-l-4 border-l-[#F68319] mb-3 text-sm">
