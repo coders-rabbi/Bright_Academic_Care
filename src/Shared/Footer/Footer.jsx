@@ -5,7 +5,7 @@ import { FiArrowUpRight } from 'react-icons/fi';
 import { FaFacebookF, FaInstagram, FaYoutube } from 'react-icons/fa';
 const Footer = () => {
     return (
-        <div className='xl:grid grid-cols-3 bg-[#EEF3F1] py-12 p-5 xl:p-0'>
+        <div className='xl:grid grid-cols-3 bg-[#EEF3F1] py-12 p-5 xl:px-0'>
             <div className='flex justify-center'>
                 <div className='border-r'>
                     <div className='flex items-center gap-3 mb-5'>
