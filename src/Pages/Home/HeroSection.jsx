@@ -10,8 +10,8 @@ const HeroSection = () => {
     return (
         <div className='xl:grid grid-cols-3 bg-[#F5F5F5] xl:px-20 py-10 pt-10'>
             <div className='xl:col-span-2 '>
-                <div className='flex items-center  h-10 border-l-[#F68319] border-l-2 mb-5'>
-                    <p className='text-xs xl:text-xl bg-white shadow-2xs inline-block xl:px-8 p-1 text-black'>জ্ঞানের আকাঙ্ক্ষা করো। সীমাহীনভাবে শিখো।</p>
+                <div className='h-10 text-center xl:text-start mb-5'>
+                    <p className='border-l-[#F68319] border-l-2 text-xs xl:text-xl bg-white shadow-2xs inline-block xl:px-8 p-1 text-black'>জ্ঞানের আকাঙ্ক্ষা করো। সীমাহীনভাবে শিখো।</p>
                 </div>
                 <h2 className='text-center text-black text-[25px] xl:text-[44px] font-semibold'>ব্রাইট একাডেমিক কেয়ারে স্বাগতম</h2>
                 <p className='text-[18px] text-center text-black xl:text-left mt-8'>সাফল্যের স্বর্ণালী শিখরে পৌঁছাতে আমরা দৃঢ় প্রতিজ্ঞ। আমরা জানি, প্রতিশ্রুতি রক্ষায় <br /> আমরা ব্যক্তি নয়, বিবেকের কাছে দায়বদ্ধ।</p>

@@ -8,25 +8,25 @@ import { FiArrowUpRight } from "react-icons/fi";
 const Navbar = () => {
     const NavItems = (
         <>
-            <li className='hover:bg-[#FFECDB] hover:border rounded'>
+            <li className='hover:bg-[#FFECDB] rounded'>
                 <Link to="/">হোম</Link>
             </li>
-            <li className='hover:bg-[#FFECDB] hover:border rounded'>
+            <li className='hover:bg-[#FFECDB] rounded'>
                 <Link to='/'>আমাদের সম্পর্কে</Link>
             </li>
-            <li className='hover:bg-[#FFECDB] hover:border rounded'>
+            <li className='hover:bg-[#FFECDB] rounded'>
                 <Link to='/'>কোর্স সমূহ</Link>
             </li>
-            <li className='hover:bg-[#FFECDB] hover:border rounded'>
+            <li className='hover:bg-[#FFECDB] rounded'>
                 <Link to='/'>শিক্ষম মন্ডলী</Link>
             </li>
-            <li className='hover:bg-[#FFECDB] hover:border rounded'>
+            <li className='hover:bg-[#FFECDB] rounded'>
                 <Link to='/'>মতামত</Link>
             </li>
-            <li className='hover:bg-[#FFECDB] hover:border rounded'>
+            <li className='hover:bg-[#FFECDB] rounded'>
                 <Link to='/'>সংবাদ</Link>
             </li>
-            <li className='hover:bg-[#FFECDB] hover:border rounded'>
+            <li className='hover:bg-[#FFECDB] rounded'>
                 <Link to='/'>যোগাযোগ</Link>
             </li>
         </>
