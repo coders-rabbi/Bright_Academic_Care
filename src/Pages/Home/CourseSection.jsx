@@ -7,13 +7,13 @@ import icon_course from '../../assets/icon_Course.png'
 
 const CourseSection = () => {
     return (
-        <div className='courseBanner py-10 text-center '>
-            <p className='border bg-white border-[#F5F5F5] rounded-xs shadow-2xl inline-block py-2 px-4 border-l-3 border-l-[#F68319] mb-2'>আমাদের কোর্স সমূহ</p>
-            <p className='text-3xl text-white mt-4'>বিভিন্ন শ্রেণির জন্য বিশেষায়িত কোর্স</p>
+        <div className='xl:courseBanner py-10 text-center '>
+            <p className='border text-black bg-white border-[#F5F5F5] rounded-xs shadow-2xl inline-block py-2 px-4 border-l-3 border-l-[#F68319] mb-2'>আমাদের কোর্স সমূহ</p>
+            <p className='text-3xl mt-4 text-black'>বিভিন্ন শ্রেণির জন্য বিশেষায়িত কোর্স</p>
 
             {/* course card section */}
-            <div className='flex justify-center gap-2 mt-6'>
-                <div className="card bg-base-100 w-[20%] shadow-sm rounded-xl">
+            <div className='xl:flex justify-center gap-2 mt-6'>
+                <div className="card bg-white text-black xl:w-[20%] shadow-sm rounded-xl mx-5">
                     <figure className="">
                         <img
                             src={cours2}
@@ -42,7 +42,7 @@ const CourseSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card bg-base-100 w-[20%] shadow-sm rounded-xl">
+                <div className="card bg-white text-black xl:w-[20%] shadow-sm rounded-xl mx-5 mt-10 xl:mt-0">
                     <figure className="">
                         <img
                             src={cours1}
@@ -71,7 +71,7 @@ const CourseSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card bg-base-100 w-[20%] shadow-sm rounded-xl">
+                <div className="card bg-white text-black xl:w-[20%] shadow-sm rounded-xl mx-5 mt-10 xl:mt-0">
                     <figure className="">
                         <img
                             src={cours2}
@@ -100,7 +100,7 @@ const CourseSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card bg-base-100 w-[20%] shadow-sm rounded-xl">
+                <div className="card bg-white text-black xl:w-[20%] shadow-sm rounded-xl mx-5 mt-10 xl:mt-0">
                     <figure className="">
                         <img
                             src={course}
