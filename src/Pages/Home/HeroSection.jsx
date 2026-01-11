@@ -5,6 +5,10 @@ import { FiArrowUpRight } from 'react-icons/fi';
 import { PiStudentFill } from 'react-icons/pi';
 import { Link } from 'react-router';
 import heroImage from "../../assets/image/image 1.png"
+import icon1 from '../../assets/iconForHeros/1.png'
+import icon2 from '../../assets/iconForHeros/2.png'
+import icon3 from '../../assets/iconForHeros/3.png'
+import icon4 from '../../assets/iconForHeros/4.png'
 
 const HeroSection = () => {
     return (
@@ -13,10 +17,10 @@ const HeroSection = () => {
                 <div className='h-10 text-center xl:text-start mb-5'>
                     <p className='border-l-[#F68319] border-l-2 text-xs xl:text-xl bg-white shadow-2xs inline-block xl:px-8 p-1 text-black'>জ্ঞানের আকাঙ্ক্ষা করো। সীমাহীনভাবে শিখো।</p>
                 </div>
-                <h2 className='text-center text-black text-[25px] xl:text-[44px] font-semibold'>ব্রাইট একাডেমিক কেয়ারে স্বাগতম</h2>
+                <h2 className='text-center xl:text-start text-black text-[25px] xl:text-[44px] font-semibold'>ব্রাইট একাডেমিক কেয়ারে স্বাগতম</h2>
                 <p className='text-[18px] text-center text-black xl:text-left mt-8'>সাফল্যের স্বর্ণালী শিখরে পৌঁছাতে আমরা দৃঢ় প্রতিজ্ঞ। আমরা জানি, প্রতিশ্রুতি রক্ষায় <br /> আমরা ব্যক্তি নয়, বিবেকের কাছে দায়বদ্ধ।</p>
 
-                <div className='mt-8 mb-8 flex justify-center xl:justify-start xl:flex-none'>
+                <div className='mt-11 flex justify-center xl:justify-start xl:flex-none'>
                     <button className='btn flex items-center text-xl font-normal border border-[#F68319] bg-transparent pr-[5px]'>
                         <p className='text-black'>আমাদের সম্পর্কে জানুন</p>
                         <div className='text-black border border-[#F68319] p-[5px] rounded'>
@@ -25,31 +29,31 @@ const HeroSection = () => {
                     </button>
                 </div>
 
-                <div className='flex justify-center xl:justify-start'>
-                    <div className='xl:flex justify-between items-center border border-[#F68319] rounded px-7 py-5 inline-block'>
+                <div className='flex justify-center xl:justify-start mt-12'>
+                    <div className='xl:flex justify-between items-center border border-[#F68319] rounded px-5 py-5 inline-block'>
                         <div className='flex justify-center items-center gap-4 mb-5 xl:mb-0'>
-                            <PiStudentFill className='h-8 w-10 text-blue-600' />
+                            <img src={icon1} alt="" />
                             <div>
                                 <p className='text-2xl text-[#F68319]'>৩০০০+</p>
                                 <p className='text-[16px] text-black'>সফল শিক্ষার্থী</p>
                             </div>
                         </div>
-                        <div className='flex justify-center items-center gap-4 mb-5 xl:mb-0'>
-                            <PiStudentFill className='h-8 w-10 text-blue-600' />
+                        <div className='ml-10 flex justify-center items-center gap-4 mb-5 xl:mb-0'>
+                            <img src={icon2} alt="" />
                             <div>
                                 <p className='text-2xl text-[#F68319]'>৪৫+</p>
                                 <p className='text-[16px] text-black'>অভিজ্ঞ শিক্ষক</p>
                             </div>
                         </div>
-                        <div className='flex justify-center items-center gap-4 mb-5 xl:mb-0'>
-                            <FaRegListAlt className='h-8 w-10 text-blue-600' />
+                        <div className='ml-10 flex justify-center items-center gap-4 mb-5 xl:mb-0'>
+                            <img src={icon3} alt="" />
                             <div>
                                 <p className='text-2xl text-[#F68319]'>১৭+</p>
                                 <p className='text-[16px] text-black'>বছরের অভিনজ্ঞতা</p>
                             </div>
                         </div>
-                        <div className='flex justify-center items-center gap-4 mb-5 xl:mb-0'>
-                            <FaAward className='h-8 w-10 text-blue-600' />
+                        <div className='ml-10 flex justify-center items-center gap-4 mb-5 xl:mb-0'>
+                            <img src={icon4} alt="" />
                             <div>
                                 <p className='text-2xl text-[#F68319]'>১০০%</p>
                                 <p className='text-[16px] text-black'>সফল শিক্ষার্থী</p>
