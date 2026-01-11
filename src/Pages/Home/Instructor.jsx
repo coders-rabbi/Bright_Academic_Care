@@ -3,7 +3,7 @@ import teacher from '../../assets/teacher.png'
 
 const Instructor = () => {
     return (
-        <div className='py-28 text-center bg-white'>
+        <div className='py-12 xl:py-28 text-center bg-white'>
             <p className='border bg-white border-[#F5F5F5] rounded-xs shadow-2xl inline-block py-2 px-4 border-l-3 border-l-[#F68319] mb-6 text-black'>আমাদের শিক্ষকমণ্ডলী</p>
             <p className='text-3xl font-semibold text-black'>অভিজ্ঞ ও দক্ষ শিক্ষকদের তত্ত্বাবধানে মানসম্পন্ন শিক্ষা</p>
 

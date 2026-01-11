@@ -9,7 +9,7 @@ const SliderSection = () => {
     return (
         <Swiper spaceBetween={30} slidesPerView={1}>
             {[1, 2, 3, 4].map((_, index) => (
-                <SwiperSlide key={index} className="bg-[#FEF6EF] py-30">
+                <SwiperSlide key={index} className="bg-[#FEF6EF] py-12 xl:py-30">
                     <div className="flex flex-col xl:flex-row items-center justify-center gap-20 px-4 xl:px-0">
 
                         <div className="order-2 xl:order-1 w-[140px] h-[140px] xl:w-[200px] xl:h-[200px] bg-white rounded-full p-6 flex items-center justify-center">

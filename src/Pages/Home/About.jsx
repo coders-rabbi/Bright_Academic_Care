@@ -8,7 +8,7 @@ import { IoMdCheckboxOutline } from 'react-icons/io';
 
 const About = () => {
     return (
-        <section className="container mx-auto px-4 xl:px-20 py-10">
+        <section className="container mx-auto px-4 xl:px-20 py-12 xl:py-28 bg-white">
             <div className="grid grid-cols-1 xl:grid-cols-2 gap-10 items-center">
 
                 <div className="relative order-2 xl:order-1">
@@ -30,13 +30,13 @@ const About = () => {
                     />
                 </div>
 
-                <div className="order-1 xl:order-2">
+                <div className="order-1 xl:order-2 text-center">
 
-                    <p className="inline-block border border-gray-200 shadow px-4 py-2 border-l-4 border-l-[#F68319] mb-6 text-sm">
+                    <p className="inline-block border border-gray-200 shadow px-4 py-2 border-l-4 border-l-[#F68319] mb-6 text-sm text-black">
                         আমাদের সম্পর্কে
                     </p>
 
-                    <h2 className="text-2xl md:text-3xl font-semibold mb-8">
+                    <h2 className="text-2xl text-black md:text-3xl font-semibold mb-8">
                         ব্রাইট একাডেমিক কেয়ার – শিক্ষার মানোন্নয়নে প্রতিশ্রুতিবদ্ধ
                     </h2>
 
@@ -45,10 +45,10 @@ const About = () => {
 
                         <div>
                             <div className="flex items-center justify-between mb-4">
-                                <h3 className="text-xl font-semibold">আমাদের লক্ষ্য</h3>
+                                <h3 className="text-xl text-black font-semibold">আমাদের লক্ষ্য</h3>
                                 <span className="h-1 w-24 bg-[#F68319]" />
                             </div>
-                            <p className="text-sm leading-relaxed">
+                            <p className="text-sm text-black leading-relaxed">
                                 ব্রাইট একাডেমিক কেয়ারের মূল লক্ষ্য হলো প্রতিটি শিক্ষার্থীর সুপ্ত প্রতিভা বিকশিত করা এবং তাদের একাডেমিক ও ব্যক্তিত্ব উন্নয়নে সহায়তা করা।
                             </p>
                         </div>
@@ -58,11 +58,11 @@ const About = () => {
                         <div className="flex items-center justify-between mb-4">
 
                             <img className="h-16 w-16 mr-3" src={starIcon} alt="" />
-                            <h3 className="text-[18px] xl:text-xl font-semibold">আমাদের বিশেষত্ব</h3>
+                            <h3 className="text-[18px] text-black xl:text-xl font-semibold">আমাদের বিশেষত্ব</h3>
                             <span className="h-1 w-24 bg-[#F68319]" />
                         </div>
 
-                        <ul className="space-y-3">
+                        <ul className="space-y-3 text-black">
                             {[
                                 "অভিজ্ঞ ও দক্ষ শিক্ষকমণ্ডলী",
                                 "আধুনিক শিক্ষা পদ্ধতি",

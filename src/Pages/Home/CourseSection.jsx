@@ -7,7 +7,7 @@ import icon_course from '../../assets/icon_Course.png'
 
 const CourseSection = () => {
     return (
-        <div className='courseBanner py-24 text-center '>
+        <div className='courseBanner py-12 xl:py-24 text-center '>
             <p className='border text-black bg-white border-[#F5F5F5] rounded-xs shadow-2xl inline-block py-2 px-4 border-l-3 border-l-[#F68319] mb-6'>আমাদের কোর্স সমূহ</p>
             <p className='text-5xl xl:text-white font-semibold'>বিভিন্ন শ্রেণির জন্য বিশেষায়িত কোর্স</p>
 

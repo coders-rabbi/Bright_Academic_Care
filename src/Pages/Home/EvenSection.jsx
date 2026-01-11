@@ -2,7 +2,7 @@ import React from 'react';
 
 const EvenSection = () => {
     return (
-        <div className='py-28  px-5 bg-white'>
+        <div className='py-12 xl:py-28  px-5 bg-white'>
             <div className='text-center'>
                 <p className='border bg-white border-[#F5F5F5] rounded-xs shadow-2xl inline-block py-2 px-4 border-l-3 border-l-[#F68319] mb-6 text-black'>সংবাদ ও ঘোষণা </p>
                 <h2 className='text-3xl font-semibold text-black'>সাম্প্রতিক আপডেট ও গুরুত্বপূর্ণ তথ্য</h2>

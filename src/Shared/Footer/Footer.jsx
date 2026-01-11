@@ -5,9 +5,9 @@ import { FiArrowUpRight } from 'react-icons/fi';
 import { FaFacebookF, FaInstagram, FaYoutube } from 'react-icons/fa';
 const Footer = () => {
     return (
-        <div className='xl:grid grid-cols-3 bg-[#EEF3F1] py-28 p-5 xl:px-0'>
-            <div className='flex justify-center'>
-                <div className='border-r'>
+        <div className='xl:grid grid-cols-3 bg-[#EEF3F1] py-12 xl:py-28 p-5 xl:px-0'>
+            <div className='xl:flex justify-center'>
+                <div>
                     <div className='flex items-center gap-3 mb-8'>
                         <img className='w-20 h-20' src={logo} alt="logo" />
                         <h3 className='text-[#F68319]'>ব্রাইট একাডেমি<br /> কেয়ার</h3>

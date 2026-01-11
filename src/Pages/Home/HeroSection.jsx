@@ -21,7 +21,7 @@ const HeroSection = () => {
                 <p className='text-[18px] text-center text-black xl:text-left mt-8'>সাফল্যের স্বর্ণালী শিখরে পৌঁছাতে আমরা দৃঢ় প্রতিজ্ঞ। আমরা জানি, প্রতিশ্রুতি রক্ষায় <br /> আমরা ব্যক্তি নয়, বিবেকের কাছে দায়বদ্ধ।</p>
 
                 <div className='mt-11 flex justify-center xl:justify-start xl:flex-none'>
-                    <button className='btn flex items-center text-xl font-normal border border-[#F68319] bg-transparent pr-[5px]'>
+                    <button className='btn flex items-center text-xl font-normal border border-[#F68319] bg-transparent pr-[5px] pl-[16px] py-[19px]'>
                         <p className='text-black'>আমাদের সম্পর্কে জানুন</p>
                         <div className='text-black border border-[#F68319] p-[5px] rounded'>
                             <FiArrowUpRight></FiArrowUpRight>
