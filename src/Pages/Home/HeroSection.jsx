@@ -59,7 +59,7 @@ const HeroSection = () => {
                 </div>
             </div>
 
-            <div className='grid-cols-1 h-[300px] mt-10 xl:mt-0'>
+            <div className='grid-cols-1 h-[300px] xl:h-full mt-10 xl:mt-0'>
                 <div className="flex items-center justify-center w-full h-full gap-1 px-10">
 
                     <div className="w-1/3 h-full overflow-hidden rounded-2xl">
